@@ -19,7 +19,7 @@ Folder structure
   /fixtures
 
     user.json           // Contains valid and invalid user data
-  /integration
+  /e2e
 
     SauceDemo.cy.js      // Cypress test file for Sauce Demo website
   /support
