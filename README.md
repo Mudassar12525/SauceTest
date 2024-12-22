@@ -57,14 +57,19 @@ The project structure is as follows:
 
 arduino
 Copy code
+
 /cypress
   /fixtures
+
     user.json           // Contains valid and invalid user data for login
-  /integration
+  /e2e
+
     SauceDemo.cy.js      // Cypress test file for the Sauce Demo website
   /support
+
     commands.js          // Custom commands for Cypress
     index.js             // Initializes support files
+
 Fixtures: Contains mock data for testing (e.g., user.json).
 Integration: Holds the test scripts, like SauceDemo.cy.js.
 Support: Includes custom commands and setup files for Cypress.
